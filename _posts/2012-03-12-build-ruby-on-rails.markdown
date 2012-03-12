@@ -4,8 +4,8 @@ title: 基于Ubuntu11.10搭建Ruby on Rails开发环境
 category: ruby
 ---
 
-**版本**：Ubuntu11.10桌面版，Ruby 1.9.3, Rails 3.2.0  
-**目的**：搭建一个基于Ubuntu 11.10的Ruby on Rails开发环境
+__版本__：Ubuntu11.10桌面版，Ruby 1.9.3, Rails 3.2.0  
+__目的__：搭建一个基于Ubuntu 11.10的Ruby on Rails开发环境
 
 #安装Ubuntu
 Ubuntu的安装方式不在这里说明，大家可以参照[这篇文章](http://hi.baidu.com/%BD%FC%CE%C0%BE%D1%BB%F7/blog/item/74bf402991738b86033bf69f.html)；  
@@ -38,7 +38,7 @@ rvm是ruby版本管理器，可以在本机上管理多个不同版本的ruby程
 #安装RubyGems
 RubyGems（简称 gems）是一个用于对 Rails 组件进行打包的 Ruby 打包系统。 它提供一个分发 Ruby 程序和库的标准格式，还提供一个管理程序包安装的工具。  
 
-RubyGems的功能类似于Linux下的apt-get。使用它可以方便第从远程服务器下载并安装Rails  
+RubyGems的功能类似于Linux下的apt-get。使用它可以方便第从远程服务器下载并安装Rails。  
 
 一般安装完ruby 1.9.3，会自动将rubygems-1.8.17装上，可通过gem -v命令查看版本。如果没有安装，执行以下命令：  
 
@@ -62,6 +62,7 @@ RubyGems的功能类似于Linux下的apt-get。使用它可以方便第从远程
     gem install mysql2
 
 #Ruby开发工具
+
 + 开源IDE：[netbeans](http://netbeans.org/)  
 + 开源编辑器：[vim](http://www.vim.org/)
 + 商业IDE：[rubymine](http://www.jetbrains.com/ruby/)  
