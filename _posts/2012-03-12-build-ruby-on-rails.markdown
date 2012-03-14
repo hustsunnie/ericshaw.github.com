@@ -70,6 +70,21 @@ RubyGems的功能类似于Linux下的apt-get。使用它可以方便第从远程
 
 除了以上老牌，还有模仿Mac上的Textmate的替代品是：[Sublime Text](http://www.sublimetext.com),可以提供跨平台的较一致的用户体验。
 
+#异常处理
+报错提示：   
+
+    RVM is not a function, selecting rubies with 'rvm use ...' will not work.
+
+解决方法，执行：   
+
+    echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.bash_profile
+
+然后重启Terminer再执行    
+
+    source .bash_profile
+
+
+
 
 
 
